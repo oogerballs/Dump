@@ -1,0 +1,25 @@
+﻿@model SocialMediaSite.Models.Image
+@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "ImageDetails";
+}
+
+<h2>Image Details</h2>
+<h3>Original Post Made by: @Model.Publisher</h3>
+@Html.Partial("_ImagesListPartial", Model)
+<hr />
+<div>
+    @if (Model.Publisher == User.Identity.GetUserName())
+    {
+    <div class="scrmButtons">
+        <a href="/Home/UpdateImage/@Model.ImageId">
+            Edit
+        </a>
+    </div>
+    <div class="scrmButtons">
+        <a href="/Home/Delete/@Model.ImageId">
+            Delete
+        </a>
+    </div>
+    }
+</div>

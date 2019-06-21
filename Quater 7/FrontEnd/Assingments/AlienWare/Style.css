@@ -1,0 +1,194 @@
+
+#Content{
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.nav-item{
+    margin: 0% 23%;
+}
+
+.nav-link{
+    padding: 0% 10%;
+    transition: 1s;
+}
+
+#aplhaIcon{
+    transition: 1s;
+}
+
+#aplhaIcon:hover{
+    color: #49c0b6;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #49c0b6;
+}
+
+.icon{
+    padding-left: 30%;
+}
+
+
+.jumbotron h1, p{
+    text-align: center;
+}
+
+.jumbotron{
+    background-color: #404040;
+    color: #FFFFFF;
+    margin-bottom: 0%;
+}
+
+#Logo{
+    font-size:100px;
+    margin-left: 47%;
+}
+
+#TopImage{
+    background: black;
+}
+
+#TopImage img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 24%;
+}
+
+#SpecsGridTop{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+#SpecsGridBot{
+    margin-left: 15%;
+}
+
+
+#Processor{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#Ram{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#slideShow{
+background-color: black;
+}
+
+#slideImages{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.ReviewButton{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#ReviewImage{
+    max-height: 400px;
+}
+
+#ReviewContent{
+    padding-left: 5%;
+}
+
+#ReviewText{
+    padding-left: 20%;
+}
+
+.card{
+    border: none;
+}
+
+#Prices{
+    margin-top: 5%;
+    height: 300px;
+}
+
+#Prices h1{
+    text-align: center;
+    margin-bottom: 5%
+}
+
+.PriceButton{
+    margin-left: 7%;
+}
+
+#PreOrder{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/007/770/915/large/ciprian-david-wee3.jpg?1508398764");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#OrderButton {
+    font-size: 35px;
+    color: #fff;
+    background-color: #343a40;
+    border-color: #F0F0F2;
+}
+
+@media all and (max-width: 1200px){
+    .nav-item{
+        margin: 0% 18%;
+    }
+}
+
+@media all and (max-width: 1000px){
+    #TopImage img{
+        margin-left: 4%;
+    }
+    #SpecsGridBot{
+        margin: 0px;
+    }
+}
+
+@media all and (max-width: 767px){
+    #SpecsGridTop{
+        margin: 0px;
+        margin-top: 5%;
+    }
+
+    #TopImage img{
+        margin-left: 0%;
+    }
+
+    #SpecsGridBot{
+        margin: 0px;
+        margin-top: 5%;
+    }
+
+    .nav-item{
+        margin: 4% 0%;
+    }
+    
+    .icon{
+        padding-left: 0%;
+    }
+
+    #Logo{
+        margin-left: 40%;
+    }
+
+    .PriceButton{
+        margin-left: 0%;
+        margin-bottom: 4%;
+    }
+}

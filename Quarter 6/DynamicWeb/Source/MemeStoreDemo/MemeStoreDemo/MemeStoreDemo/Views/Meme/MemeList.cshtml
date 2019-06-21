@@ -1,0 +1,14 @@
+﻿@model MemeStoreService.Models.MemeListModel
+
+@{
+    ViewBag.Title = "MemeList";
+}
+
+<h2>The Meme List!</h2>
+
+<div class="memeList">
+    @foreach (var meme in Model.Memes)
+    {
+        @Html.Partial("_MemeBoxPartial", meme)
+    }
+</div>

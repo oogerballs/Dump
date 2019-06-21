@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/Style2.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @RenderBody()
+        <br />
+        <br />
+        @RenderSection("Footer")
+        <br />
+        <br />
+        @RenderSection("Nav")
+        <br />
+        <br />
+        @RenderSection("Header")
+
+
+    </div>
+</body>
+</html>

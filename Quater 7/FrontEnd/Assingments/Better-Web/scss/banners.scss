@@ -1,0 +1,81 @@
+$BanPad: 7% 0%;
+$banPPadding: 2% 5%;
+.Banner{
+    width: 100%;
+    position: relative;
+    padding: $BanPad;
+    background: darken($White-C, 10%);
+    color: $Black-C;
+    h1{
+        color: $Black-C;
+        text-align: center;
+        margin-bottom: 8%; 
+    }
+    p{
+        padding: $banPPadding;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+.succes_Ban{
+    width: 90%;
+    position: relative;
+    padding: 1% 2%;
+    margin: 2% 2%;
+    background: $Prime_G;
+    h4{
+    color: $White-C;
+    text-align: center;
+    }
+}
+.Prime_Ban{
+    width: 90%;
+    position: relative;
+    padding: 1% 2%;
+    margin: 2% 2%;
+    background: lighten($Prime_B, 10%);
+    h4{
+        color: $White-C;
+        text-align: center;
+    }
+}
+.Danger_Ban{
+    width: 90%;
+    position: relative;
+    padding: 1% 2%;
+    margin: 2% 2%;
+    background: lighten($Prime_R, 10%);
+    h4{
+        color: $White-C;
+        text-align: center;
+    }
+}
+.Warning_Ban{
+    width: 90%;
+    position: relative;
+    padding: 1% 2%;
+    margin: 2% 2%;
+    background: $Warning_C;
+    h4{
+        text-align: center;
+        color: lighten($White-C, 10%);
+    }
+}
+
+.Banner_Dark{
+    width: 100%;
+    position: relative;
+    padding: $BanPad;
+    background: lighten($Black-C, 10%);
+    color: $White-C;
+    h1{
+        color: $White-C;
+        text-align: center;
+        margin-bottom: 8%; 
+    }
+    p{
+        padding: $banPPadding;
+        text-align: center;
+        font-size: 16px;
+    }
+}

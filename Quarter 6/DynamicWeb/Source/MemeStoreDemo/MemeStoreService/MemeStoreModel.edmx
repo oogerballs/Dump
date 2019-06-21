@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MemeStoreModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="CommentId" />
+          </Key>
+          <Property Name="CommentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Text" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Meme">
+          <Key>
+            <PropertyRef Name="MemeId" />
+          </Key>
+          <Property Name="MemeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="IsDead" Type="bit" Nullable="false" />
+          <Property Name="ImageUrl" Type="varchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MemeComment">
+          <Key>
+            <PropertyRef Name="MemeId" />
+            <PropertyRef Name="CommentId" />
+          </Key>
+          <Property Name="MemeId" Type="int" Nullable="false" />
+          <Property Name="CommentId" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__MemeComme__Comme__3C69FB99">
+          <End Role="Comment" Type="Self.Comment" Multiplicity="1" />
+          <End Role="MemeComment" Type="Self.MemeComment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Comment">
+              <PropertyRef Name="CommentId" />
+            </Principal>
+            <Dependent Role="MemeComment">
+              <PropertyRef Name="CommentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__MemeComme__MemeI__3B75D760">
+          <End Role="Meme" Type="Self.Meme" Multiplicity="1" />
+          <End Role="MemeComment" Type="Self.MemeComment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Meme">
+              <PropertyRef Name="MemeId" />
+            </Principal>
+            <Dependent Role="MemeComment">
+              <PropertyRef Name="MemeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MemeStoreModelStoreContainer">
+          <EntitySet Name="Comment" EntityType="Self.Comment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Meme" EntityType="Self.Meme" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MemeComment" EntityType="Self.MemeComment" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__MemeComme__Comme__3C69FB99" Association="Self.FK__MemeComme__Comme__3C69FB99">
+            <End Role="Comment" EntitySet="Comment" />
+            <End Role="MemeComment" EntitySet="MemeComment" />
+          </AssociationSet>
+          <AssociationSet Name="FK__MemeComme__MemeI__3B75D760" Association="Self.FK__MemeComme__MemeI__3B75D760">
+            <End Role="Meme" EntitySet="Meme" />
+            <End Role="MemeComment" EntitySet="MemeComment" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MemeStoreModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="CommentId" />
+          </Key>
+          <Property Name="CommentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Text" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Memes" Relationship="Self.MemeComment" FromRole="Comment" ToRole="Meme" />
+        </EntityType>
+        <EntityType Name="Meme">
+          <Key>
+            <PropertyRef Name="MemeId" />
+          </Key>
+          <Property Name="MemeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IsDead" Type="Boolean" Nullable="false" />
+          <Property Name="ImageUrl" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Comments" Relationship="Self.MemeComment" FromRole="Meme" ToRole="Comment" />
+        </EntityType>
+        <Association Name="MemeComment">
+          <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+          <End Role="Meme" Type="Self.Meme" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="MemeStoreEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Comments" EntityType="Self.Comment" />
+          <EntitySet Name="Memes" EntityType="Self.Meme" />
+          <AssociationSet Name="MemeComment" Association="Self.MemeComment">
+            <End Role="Comment" EntitySet="Comments" />
+            <End Role="Meme" EntitySet="Memes" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MemeStoreModelStoreContainer" CdmEntityContainer="MemeStoreEntities">
+          <EntitySetMapping Name="Comments">
+            <EntityTypeMapping TypeName="MemeStoreModel.Comment">
+              <MappingFragment StoreEntitySet="Comment">
+                <ScalarProperty Name="CommentId" ColumnName="CommentId" />
+                <ScalarProperty Name="Text" ColumnName="Text" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Memes">
+            <EntityTypeMapping TypeName="MemeStoreModel.Meme">
+              <MappingFragment StoreEntitySet="Meme">
+                <ScalarProperty Name="MemeId" ColumnName="MemeId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="IsDead" ColumnName="IsDead" />
+                <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="MemeComment" TypeName="MemeStoreModel.MemeComment" StoreEntitySet="MemeComment">
+            <EndProperty Name="Comment">
+              <ScalarProperty Name="CommentId" ColumnName="CommentId" />
+            </EndProperty>
+            <EndProperty Name="Meme">
+              <ScalarProperty Name="MemeId" ColumnName="MemeId" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

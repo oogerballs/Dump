@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeStoreDemo", "MemeStoreDemo\MemeStoreDemo.csproj", "{AE9EC81B-936B-40F2-8366-DB851CA7336F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeStoreDemo.Tests", "MemeStoreDemo.Tests\MemeStoreDemo.Tests.csproj", "{59D6B50F-E779-43BB-BE4A-D77CA6FD84AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeStoreService", "MemeStoreService\MemeStoreService.csproj", "{3A69CDAD-D8C2-416A-B59B-74370D69A9CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeStoreScratchConsole", "MemeStoreScratchConsole\MemeStoreScratchConsole.csproj", "{727D9756-BD78-402D-8D25-F5B61C9EEBFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE9EC81B-936B-40F2-8366-DB851CA7336F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9EC81B-936B-40F2-8366-DB851CA7336F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9EC81B-936B-40F2-8366-DB851CA7336F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9EC81B-936B-40F2-8366-DB851CA7336F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D6B50F-E779-43BB-BE4A-D77CA6FD84AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D6B50F-E779-43BB-BE4A-D77CA6FD84AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D6B50F-E779-43BB-BE4A-D77CA6FD84AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D6B50F-E779-43BB-BE4A-D77CA6FD84AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A69CDAD-D8C2-416A-B59B-74370D69A9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A69CDAD-D8C2-416A-B59B-74370D69A9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A69CDAD-D8C2-416A-B59B-74370D69A9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A69CDAD-D8C2-416A-B59B-74370D69A9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727D9756-BD78-402D-8D25-F5B61C9EEBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727D9756-BD78-402D-8D25-F5B61C9EEBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727D9756-BD78-402D-8D25-F5B61C9EEBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727D9756-BD78-402D-8D25-F5B61C9EEBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE9E8C05-B9E0-4B08-B297-92939352F5DC}
+	EndGlobalSection
+EndGlobal

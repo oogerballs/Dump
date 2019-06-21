@@ -1,0 +1,37 @@
+﻿@model SocialMediaSite.Models.ProfileModel
+
+@{
+    ViewBag.Title = "Profile Page";
+}
+
+
+<div id="ProfileInfo">
+    <h2>Profile: @Model.ProfileName</h2>
+    <br />
+    <h4>User Nickname: @Model.NickName</h4>
+
+    <div id="profileImage">
+        <img src="@Model.ProfileImageUrl" />
+    </div>
+
+    <div id="Favorites">
+        <table>
+            <tr>
+                <th>@Model.NickName's Favorites! </th>
+            </tr>
+            @foreach (Favorite item in @Model.Favorite)
+            {
+                <tr>
+                    <td>
+                        Favorite @item.FavType
+                    </td>
+                    <td>
+                        @item.FavValue
+                    </td>
+                </tr>
+            }
+        </table>
+
+    </div>
+</div>
+

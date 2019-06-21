@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MemeStoreModelStoreContainer" CdmEntityContainer="MemeStoreEntities">
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="MemeStoreModel.Comment">
+        <MappingFragment StoreEntitySet="Comment">
+          <ScalarProperty Name="CommentId" ColumnName="CommentId" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Memes">
+      <EntityTypeMapping TypeName="MemeStoreModel.Meme">
+        <MappingFragment StoreEntitySet="Meme">
+          <ScalarProperty Name="MemeId" ColumnName="MemeId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsDead" ColumnName="IsDead" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="MemeComment" TypeName="MemeStoreModel.MemeComment" StoreEntitySet="MemeComment">
+      <EndProperty Name="Comment">
+        <ScalarProperty Name="CommentId" ColumnName="CommentId" />
+      </EndProperty>
+      <EndProperty Name="Meme">
+        <ScalarProperty Name="MemeId" ColumnName="MemeId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

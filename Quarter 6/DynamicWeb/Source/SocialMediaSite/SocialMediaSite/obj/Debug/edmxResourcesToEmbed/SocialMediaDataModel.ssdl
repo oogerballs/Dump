@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SocialMediaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="CommentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Text" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Favorites">
+    <Key>
+      <PropertyRef Name="ProfileId" />
+    </Key>
+    <Property Name="ProfileId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FavType" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FavValue" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Image">
+    <Key>
+      <PropertyRef Name="ImageId" />
+    </Key>
+    <Property Name="ImageId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ImageName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="caption" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="publisher" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ImgSrc" Type="varchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ImageComment">
+    <Key>
+      <PropertyRef Name="ImageId" />
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="ImageId" Type="int" Nullable="false" />
+    <Property Name="CommentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NewsFeed">
+    <Key>
+      <PropertyRef Name="NewsId" />
+    </Key>
+    <Property Name="NewsId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NewsHeader" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NewsImageUrl" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="NewsBody" Type="varchar" MaxLength="1000" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Profile">
+    <Key>
+      <PropertyRef Name="ProfileId" />
+    </Key>
+    <Property Name="ProfileId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProfileName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NickName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProfileImageUrl" Type="varchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Favorites__Profi__534D60F1">
+    <End Role="Profile" Type="Self.Profile" Multiplicity="1" />
+    <End Role="Favorites" Type="Self.Favorites" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Profile">
+        <PropertyRef Name="ProfileId" />
+      </Principal>
+      <Dependent Role="Favorites">
+        <PropertyRef Name="ProfileId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ImageComm__Comme__5070F446">
+    <End Role="Comment" Type="Self.Comment" Multiplicity="1" />
+    <End Role="ImageComment" Type="Self.ImageComment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comment">
+        <PropertyRef Name="CommentId" />
+      </Principal>
+      <Dependent Role="ImageComment">
+        <PropertyRef Name="CommentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ImageComm__Image__4F7CD00D">
+    <End Role="Image" Type="Self.Image" Multiplicity="1" />
+    <End Role="ImageComment" Type="Self.ImageComment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Image">
+        <PropertyRef Name="ImageId" />
+      </Principal>
+      <Dependent Role="ImageComment">
+        <PropertyRef Name="ImageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SocialMediaModelStoreContainer">
+    <EntitySet Name="Comment" EntityType="Self.Comment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Favorites" EntityType="Self.Favorites" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Image" EntityType="Self.Image" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ImageComment" EntityType="Self.ImageComment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NewsFeed" EntityType="Self.NewsFeed" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profile" EntityType="Self.Profile" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Favorites__Profi__534D60F1" Association="Self.FK__Favorites__Profi__534D60F1">
+      <End Role="Profile" EntitySet="Profile" />
+      <End Role="Favorites" EntitySet="Favorites" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ImageComm__Comme__5070F446" Association="Self.FK__ImageComm__Comme__5070F446">
+      <End Role="Comment" EntitySet="Comment" />
+      <End Role="ImageComment" EntitySet="ImageComment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ImageComm__Image__4F7CD00D" Association="Self.FK__ImageComm__Image__4F7CD00D">
+      <End Role="Image" EntitySet="Image" />
+      <End Role="ImageComment" EntitySet="ImageComment" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

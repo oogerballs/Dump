@@ -1,0 +1,22 @@
+﻿@model MemeStoreService.Models.MemeModel
+
+@{
+    ViewBag.Title = "MemeDetail";
+}
+
+<h2>Meme Detail</h2>
+
+@Html.Partial("_MemeBoxPartial", Model)
+
+<h3 class="clear">Comments</h3>
+@foreach (var comment in Model.Comments)
+{
+    <div class="memeCommentBox panel panel-default">
+        <div class="panel-body">
+            @comment.Text
+        </div>
+        <div class="panel-footer">
+            --&nbsp;@comment.UserName
+        </div>
+    </div>
+}

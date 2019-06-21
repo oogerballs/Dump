@@ -1,0 +1,7 @@
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\Scratch\Scratch\bin\Debug\Scratch.exe.config
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\Scratch\Scratch\bin\Debug\Scratch.exe
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\Scratch\Scratch\bin\Debug\Scratch.pdb
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\Scratch\Scratch\obj\Debug\Scratch.csprojAssemblyReference.cache
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\Scratch\Scratch\obj\Debug\Scratch.csproj.CoreCompileInputs.cache
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\Scratch\Scratch\obj\Debug\Scratch.exe
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\Scratch\Scratch\obj\Debug\Scratch.pdb

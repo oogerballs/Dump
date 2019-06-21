@@ -1,0 +1,187 @@
+﻿html {
+    color: #F5005D;
+    background-image: url("https://i.redd.it/3t88melm5eb01.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+#sideBanner {
+    background-color: #FA0167;
+    color: #DFDEDC;
+    height: 80px;
+    width: 300px;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 3%;
+}
+
+    #sideBanner img {
+        max-height: 100px;
+        max-width: 50px;
+        border-radius: 150px;
+    }
+
+#cmdButtons {
+    min-width: 10%;
+    min-height: 150px;
+    padding: 5% 35%;
+}
+
+.GalleryBox {
+    width: 60%;
+    min-height: 500px;
+    border: solid beige 3px;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgba(82,6,33,.9);
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.ImageBody {
+    padding: 5px;
+}
+
+.ImageCaption {
+    padding: 5px;
+    color: #f5f5f5;
+    background: rgba(82,6,33,.1);
+}
+
+.ImageName {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ImageBody img {
+    max-height: 460px;
+    max-width: 600px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+body {
+    background: rgba(82,6,33,.9);
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    color: #FA0167;
+}
+
+.nav_item {
+    display: inline-block;
+    font-size: 18px;
+    height: 20px;
+    width: 100PX;
+    padding: 0px 25px;
+    padding-top: 10px;
+    text-align: center;
+    transition: font-size 1s, width 1s;
+}
+
+    .nav_item:hover {
+        font-size: 26px;
+        width: 100px;
+        font-weight: bold;
+    }
+
+.NavigationBar {
+    color: black;
+    text-align: center;
+    align-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-height: 50px;
+    background-color: #8C0319;
+}
+
+.banner h1 {
+    color: #F5005D;
+    padding-left: 35%;
+    margin: 60px 0px;
+}
+
+#newsImage {
+    width: 800px;
+    height: 600px;
+    margin-left: 17%;
+}
+
+#newsHeader {
+    padding-left: 23%;
+}
+
+#news {
+    color: #FA0167;
+}
+
+    #news h4 {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 30px;
+    }
+
+#profileImage img {
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 50px;
+    border: solid #DFDEDC 5px;
+}
+
+#profileImage {
+    margin-left: 38%;
+}
+
+footer {
+    color: #DFDEDC;
+    background-color: #09080A;
+    width: 100%;
+    padding: 5px;
+}
+
+.scrmButtons {
+    margin-left: 43%;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    min-width: 40px;
+}
+
+    .scrmButtons a {
+        background-color: #034F50;
+        color: #E0061E;
+        font-size: 25px;
+        transition: 1s;
+        border: solid #F1FFFF;
+        padding: 10px;
+    }
+
+        .scrmButtons a:hover {
+            color: #F1FFFF;
+            background-color: #50A5A6
+        }
+
+
+#CreateImage {
+    margin-bottom: 30px;
+}
+
+    #CreateImage a {
+        background-color: #034F50;
+        color: #E0061E;
+        width: 30%;
+        font-size: 25px;
+        transition: 1s;
+        border: solid #F1FFFF;
+        padding: 10px 30px;
+    }
+
+        #CreateImage a:hover {
+            color: #F1FFFF;
+            background-color: #50A5A6
+        }

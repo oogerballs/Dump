@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/css/Site.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@Model.Title</title>
+</head>
+<body>
+    <nav>
+        <a href="/Home/Index">Home</a>
+        <a href="/AboutUs/Index">About us</a>
+    </nav>
+    <h1>@Model.Title</h1>
+    <p>
+        @Model.WelcomeText
+    </p>
+</body>
+</html>

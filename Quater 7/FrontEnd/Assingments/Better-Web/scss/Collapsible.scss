@@ -1,0 +1,25 @@
+.CollapsibleButton{
+padding: 5%;
+font-size: 24px;
+    &::after{
+        content: '\002B'; 
+        color: $Prime-G;
+        float: right;
+        font-size: 25px;
+    }
+}
+
+.CollapsibleContent{
+    background-color: lighten($Black-C, 5%);
+    color: $White-C;
+    font-size: 15px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: .5s ease-in; 
+}
+
+@media all and (max-width: 500px){
+    .CollapsibleContent{
+        font-size: 10px;
+    }
+}

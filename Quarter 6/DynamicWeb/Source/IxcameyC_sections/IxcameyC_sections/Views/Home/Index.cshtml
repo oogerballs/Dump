@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = ViewBag.Layout;
+}
+
+@section Nav{
+    <nav>
+        @Html.ActionLink("Layout 1",
+      "Index",
+      "Home",
+      new { Layout = "_Layout.cshtml" },
+      new { @class = "navbar-brand" })
+
+        @Html.ActionLink("Layout 2",
+       "Index",
+       "Home",
+       new { Layout = "_Layout2.cshtml" },
+       new { @class = "navbar-brand" })
+
+        @Html.ActionLink("Layout 3",
+      "Index",
+      "Home",
+      new { Layout = "_Layout3.cshtml" },
+      new { @class = "navbar-brand" })
+    </nav>
+}
+
+@section Header{
+    <header>
+        This is the header of the website
+    </header>
+}
+
+<body>
+    This is the body of the website
+</body>
+
+
+@section Footer{
+    <footer>
+        This is the footer of the website
+    </footer>
+}
+
+

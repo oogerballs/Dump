@@ -1,0 +1,27 @@
+canvas {
+    background: #000;
+}
+
+#app {
+    border: 5px solid #87C;
+    padding: 10px;
+    border-radius: 14px;
+    max-width: 220px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_btn, .btn {
+    flex: 1;
+    cursor: pointer;
+    text-align: center;
+    background: #549;
+    color: #fff;
+    border-radius: 4px;
+    padding: 3px;
+    margin: 2px;
+    user-select: none;
+}

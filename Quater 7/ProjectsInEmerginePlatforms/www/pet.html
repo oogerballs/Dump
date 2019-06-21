@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>BumFizzle</title>
+</head>
+<body class="ContentFull">
+    <section class="Content-full">
+        <section class="profile row">
+            <img class="AppBanner" src="assets/TitleBanner.png"/>
+        </section>
+        <section class="Content picSection">
+            <div class="profile row">
+                <img src="assets/Profile.png" class="ProfileImg" onclick="profile()" id="ProfileImgClick" />
+            </div>
+            <section id="imgCont" class="row">
+                <img class="aniImage" src="../assets/DogImage_1.jpg" />
+            </section>
+            <section class="animalInfo row">
+                <h3>
+                    Dog Name
+                </h3>
+                <h5>
+                    Breed
+                </h5>
+            </section>
+        </section>
+        <section class="col ActionButtons">
+            <div class="selectors">
+                <h3>
+                    <img src="assets/Like.png" class="DogPageButtons" onclick="profile()" id="LikeClick" />
+                </h3>
+            </div>
+
+            <div class="selectors">
+                <h3>
+                    <img src="assets/Dislike.png" class="DogPageButtons" onclick="profile()" id="dislikeClick" />
+                </h3>
+            </div>
+
+            <div class="selectors">
+                <h3>
+                    <img src="assets/Drop.png" class="DogPageButtons" onclick="CollapsibleToggle(1)" id="DropClick" />
+                </h3>
+            </div>
+        </section>
+        <section class="CollapsibleContent">
+            <h3>Breed: Mutt</h3>
+            <h3>Age: 4</h3>
+            <h3>Shots: No</h3>
+            <h3>Gender: Male</h3>
+            <h3>Drink: Toilet</h3>
+            <h3>Purebred: No</h3>
+            <h3>Location: Utah</h3>
+        </section>
+    </section>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <script type="text/javascript" src="scripts/mainView.js"></script>
+</body>
+</html>

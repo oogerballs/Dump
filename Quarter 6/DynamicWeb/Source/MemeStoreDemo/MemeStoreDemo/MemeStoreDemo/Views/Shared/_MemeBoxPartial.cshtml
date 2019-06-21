@@ -1,0 +1,25 @@
+﻿@model MemeStoreService.Models.MemeModel
+
+<div class="panel panel-default memeBox">
+    <div class="panel-heading memeHeader">
+        @Model.Name
+    </div>
+    <div class="panel-body memeBody">
+        <a href="/Meme/MemeDetail/@Model.MemeId">
+            <img src="@Model.ImageUrl" />
+        </a>
+    </div>
+    <div class="panel-footer memeFooter">
+        @if (Model.IsDead)
+        {
+            <span>R.I.P!</span>
+        }
+        <a href="/Meme/Delete/@Model.MemeId">
+            DELETE
+        </a>
+        |
+        <a href="/Meme/AddComment/@Model.MemeId">
+            Add Comment
+        </a>
+    </div>
+</div>

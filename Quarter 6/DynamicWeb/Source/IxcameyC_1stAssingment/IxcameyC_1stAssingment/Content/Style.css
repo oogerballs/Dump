@@ -1,0 +1,45 @@
+﻿html {
+    color: #EBF2F1;
+    background-color: #A65003;
+}
+
+body {
+
+}
+
+#bodySpace {
+    background-color: #026C85;
+    margin: 10px;
+    padding: 10px 150px;
+    height: 527px;
+    font-size: 25px;
+}
+
+.heading {
+    margin: 10px;
+    padding-left: 510px;
+    padding-top: 5px;
+    background-color: #026C85;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        text-align: center;
+        width: 100px;
+        padding: 14px 0px;
+        margin-left: 40px;
+        margin-right: 45px;
+        margin-bottom: 15px;
+        background-color: #61848C;
+        text-decoration: none;
+    }
+

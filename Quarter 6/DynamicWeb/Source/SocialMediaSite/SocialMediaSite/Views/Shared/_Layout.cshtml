@@ -1,0 +1,40 @@
+﻿@using Microsoft.AspNet.Identity
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Inst Social</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/content/Style.css")
+
+</head>
+<body>
+    <div class="NavigationBar navbar-fixed-top">
+        <nav id="NavigationBar">
+            <ul>
+                <li class="nav_item">@Html.ActionLink("Home", "Index", "Home")</li>
+                @if(User.Identity.GetUserName() != "")
+                {
+                <a class="nav_item"  href="/Home/Profile/@User.Identity.GetUserName()">Profile</a>
+                <a class="nav_item" href="/Home/Gallery/@User.Identity.GetUserName()">Gallery</a>
+                }
+            @Html.Partial("_LoginPartial")
+            </ul>
+        </nav>
+    </div>
+    <div id="sideBanner">
+        <img src="https://www.clipartmax.com/png/middle/216-2162808_4k-portable-network-graphic-social-media-icons-instagram.png" />
+        <p>@ViewBag.Title</p>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    <footer>Website by Cristian Ixcamey Castillo</footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

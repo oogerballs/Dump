@@ -1,0 +1,22 @@
+﻿@model RoutingDemo.Models.PaginationModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PaginatedBookList</title>
+</head>
+<body>
+    <h1>
+        Paginated Book List
+    </h1>
+    <div>
+        Page: @Model.CurrentPage and showing @Model.PageSize books per page
+    </div>
+</body>
+</html>

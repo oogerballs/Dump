@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+</head>
+
+<body ng-app="myApp" class="Content bkgr_B">
+    <section class="row">
+        <div class="Banner_Dark">
+            <h1 class="Font-Cour F-W700">
+                Website Title
+            </h1>
+        </div>
+    </section>
+    <section ng-controller="navController">
+        <nav>
+            <li class="col" ng-repeat="navli in navLis ">
+                <a href={{navli.Href1}} class="StepButton button-standard">{{navli.Name1}}</a>
+                <a href={{navli.Href2}} class="StepButton button-standard">{{navli.Name2}}</a>
+            </li>
+        </nav>
+    </section>
+    <section id="SpaContent" ng-controller="mainController" class="Content bkgr_W">
+        <div ng-view></div>
+    </section>
+    <section id="arrowsCon" class="row">
+        <div onclick="lastStep()" id="Last">
+            <i class="far fa-arrow-alt-circle-left arrow"></i>
+        </div>
+        <div onclick="nextStep()" id="Next">
+            <i class="far fa-arrow-alt-circle-right arrow"></i>
+        </div>
+    </section>
+    <footer class="footer">
+        Cristian Ixcamey Castillo
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

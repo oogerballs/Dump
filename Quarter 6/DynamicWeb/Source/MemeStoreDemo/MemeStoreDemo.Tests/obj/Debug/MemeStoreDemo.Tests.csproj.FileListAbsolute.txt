@@ -1,0 +1,106 @@
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.Tests.dll.config
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.Tests.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.Tests.pdb
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Razor.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Optimization.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Owin.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\EntityFramework.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.pdb
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.dll.config
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Helpers.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Razor.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Optimization.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\EntityFramework.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\obj\Debug\MemeStoreDemo.Tests.csprojAssemblyReference.cache
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\obj\Debug\MemeStoreDemo.Tests.csproj.CoreCompileInputs.cache
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\obj\Debug\MemeStoreDemo.Tests.csproj.CopyComplete
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\obj\Debug\MemeStoreDemo.Tests.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreDemo.Tests\obj\Debug\MemeStoreDemo.Tests.pdb
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.Tests.dll.config
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.Tests.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.Tests.pdb
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Owin.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreService.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.pdb
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreDemo.dll.config
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\MemeStoreService.pdb
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\obj\Debug\MemeStoreDemo.Tests.csprojAssemblyReference.cache
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\obj\Debug\MemeStoreDemo.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\obj\Debug\MemeStoreDemo.Tests.csproj.CopyComplete
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\obj\Debug\MemeStoreDemo.Tests.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreDemo.Tests\obj\Debug\MemeStoreDemo.Tests.pdb

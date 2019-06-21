@@ -1,0 +1,38 @@
+﻿body {
+    font-size: 40px;
+    background-color: #FFF4E0;
+    padding: 25px;
+}
+
+html {
+    font-size: 40px;
+    background-color: #1F2226;
+    padding: 25px;
+}
+
+footer {
+    font-size: 40px;
+    background-color: #2E94B5;
+    padding: 25px;
+}
+
+nav {
+    font-size: 40px;
+    background-color: #D6231E;
+    padding: 20px;
+}
+
+header {
+    font-size: 40px;
+    background-color: #F8B500;
+    padding: 25px;
+}
+
+a.navbar-brand {
+    font-size: 40px;
+    color: #9fddff;
+}
+
+    a.navbar-brand:active {
+        color: #74ffc4;
+    }

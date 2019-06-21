@@ -1,0 +1,93 @@
+@import 'colors';
+
+.button-standard{
+    background-color: $White-C;
+    color: $Black-C;
+    transition: 0.5s;
+    border: 1px solid $Black-C;
+    width: 100%;
+    &:hover{
+        background-color: darken($White-C, 80%);
+        color: lighten($Black-C, 80%);
+    }
+    &:active {
+        background-color: darken($White-C, 40%);
+    }
+}
+
+.button-standard-dark{
+    background-color: $Black-C;
+    color: $White-C;
+    transition: 0.5s;
+    border: 1px solid $White-C;
+    width: 100%;
+     &:hover{
+         background-color: lighten($Black-C, 80%);
+         color: darken($White-C, 80%);
+     }
+     &:active{
+         background-color: lighten($Black-C, 40%);
+     }
+}
+
+.button-succes{
+    background-color: $Prime-G; 
+    color: $White-C;
+    transition: 0.2s;
+     &:hover{
+        background-color: lighten($Prime-G, 10%);
+        color: lighten($Black-C, 10%);
+     }
+     &:active{
+        background-color: darken($Prime-G, 10%);
+     }
+     
+}
+.button-Prime{
+    background-color: $Prime-B; 
+    color: $White-C;
+    transition: 0.2s;
+     &:hover{
+        background-color: lighten($Prime-B, 10%);
+        color: $Black-C;
+     }
+     &:active{
+        background-color: darken($Prime-B, 10%);
+     }
+}
+.button-Danger{
+    background-color: $Prime-R; 
+    color: $White-C;
+    transition: 0.2s;
+     &:hover{
+        background-color: lighten($Prime-R, 10%);
+        color: $Black-C;
+     }
+     &:active{
+        background-color: darken($Prime-R, 10%);
+     }
+}
+.button-Warning{
+    background-color: $Warning_C;
+    color: $White-C;
+    transition: 0.2s;
+     &:hover{
+        background-color: lighten($Warning_C, 10%);
+        color: $Black-C;
+     }
+     &:active{
+        background-color: darken($Warning_C, 20%);
+     }
+}
+.button-Info{
+    background-color: $info_C;
+    color: $White-C;
+    transition: 0.2s;
+     &:hover{
+        background-color: lighten($info_C, 10%);
+        color: $Black-C;
+     }
+     &:active{
+        background-color: darken($info_C, 20%);
+     }
+}

@@ -1,0 +1,520 @@
+﻿2019-02-01 16:23:31.847   Log opened. (Time zone: UTC-07:00)
+2019-02-01 16:23:31.847   Setup version: Inno Setup version 5.5.9 (u)
+2019-02-01 16:23:31.847   Original Setup EXE: C:\Users\Cristain\Downloads\streaming-audio-recorder.exe
+2019-02-01 16:23:31.847   Setup command line: /SL5="$12031E,22287358,316416,C:\Users\Cristain\Downloads\streaming-audio-recorder.exe" /SPAWNWND=$300EC /NOTIFYWND=$400F6 
+2019-02-01 16:23:31.847   Windows version: 10.0.17134  (NT platform: Yes)
+2019-02-01 16:23:31.847   64-bit Windows: Yes
+2019-02-01 16:23:31.847   Processor architecture: x64
+2019-02-01 16:23:31.861   User privileges: Administrative
+2019-02-01 16:23:31.867   64-bit install mode: No
+2019-02-01 16:23:33.478   Created temporary directory: C:\Users\Cristain\AppData\Local\Temp\is-VGPBM.tmp
+2019-02-01 16:23:33.499   Extracting temporary file: C:\Users\Cristain\AppData\Local\Temp\is-VGPBM.tmp\isxdl.dll
+2019-02-01 16:24:05.764   Starting the installation process.
+2019-02-01 16:24:05.766   Creating directory: C:\Users\Cristain\Desktop\Streaming Audio Recorder
+2019-02-01 16:24:05.767   Creating directory: C:\Users\Cristain\AppData\Roaming\Apowersoft
+2019-02-01 16:24:05.767   Creating directory: C:\Users\Cristain\AppData\Roaming\Apowersoft\Streaming Audio Recorder
+2019-02-01 16:24:05.767   Creating directory: C:\Users\Cristain\AppData\Roaming\Apowersoft\Streaming Audio Recorder\4.2.3.0
+2019-02-01 16:24:05.767   Setting permissions on directory: C:\Users\Cristain\AppData\Roaming\Apowersoft\Streaming Audio Recorder\4.2.3.0
+2019-02-01 16:24:05.768   Directory for uninstall files: C:\Users\Cristain\Desktop\Streaming Audio Recorder
+2019-02-01 16:24:05.768   Creating new uninstall log: C:\Users\Cristain\Desktop\Streaming Audio Recorder\unins000.dat
+2019-02-01 16:24:05.769   -- File entry --
+2019-02-01 16:24:05.770   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\unins000.exe
+2019-02-01 16:24:05.771   Time stamp of our file: 2019-02-01 16:23:31.392
+2019-02-01 16:24:05.771   Installing the file.
+2019-02-01 16:24:05.776   Uninstaller requires administrator: Yes
+2019-02-01 16:24:05.776   Successfully installed the file.
+2019-02-01 16:24:05.777   -- File entry --
+2019-02-01 16:24:05.777   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfNativeFLACSource.dll
+2019-02-01 16:24:05.777   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.777   Installing the file.
+2019-02-01 16:24:05.777   Creating directory: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins
+2019-02-01 16:24:05.778   Creating directory: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86
+2019-02-01 16:24:05.786   Successfully installed the file.
+2019-02-01 16:24:05.786   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.786   -- File entry --
+2019-02-01 16:24:05.787   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfOggDemux2.dll
+2019-02-01 16:24:05.787   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.787   Installing the file.
+2019-02-01 16:24:05.794   Successfully installed the file.
+2019-02-01 16:24:05.794   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.794   -- File entry --
+2019-02-01 16:24:05.794   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfOggMux.dll
+2019-02-01 16:24:05.795   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.795   Installing the file.
+2019-02-01 16:24:05.799   Successfully installed the file.
+2019-02-01 16:24:05.799   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.799   -- File entry --
+2019-02-01 16:24:05.799   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexDecoder.dll
+2019-02-01 16:24:05.800   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.800   Installing the file.
+2019-02-01 16:24:05.808   Successfully installed the file.
+2019-02-01 16:24:05.808   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.809   -- File entry --
+2019-02-01 16:24:05.809   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexEncoder.dll
+2019-02-01 16:24:05.809   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.809   Installing the file.
+2019-02-01 16:24:05.816   Successfully installed the file.
+2019-02-01 16:24:05.816   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.816   -- File entry --
+2019-02-01 16:24:05.816   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraDecoder.dll
+2019-02-01 16:24:05.816   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.816   Installing the file.
+2019-02-01 16:24:05.823   Successfully installed the file.
+2019-02-01 16:24:05.823   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.823   -- File entry --
+2019-02-01 16:24:05.824   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraEncoder.dll
+2019-02-01 16:24:05.824   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.824   Installing the file.
+2019-02-01 16:24:05.833   Successfully installed the file.
+2019-02-01 16:24:05.833   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.833   -- File entry --
+2019-02-01 16:24:05.833   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisDecoder.dll
+2019-02-01 16:24:05.833   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.833   Installing the file.
+2019-02-01 16:24:05.843   Successfully installed the file.
+2019-02-01 16:24:05.843   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.843   -- File entry --
+2019-02-01 16:24:05.843   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisEncoder.dll
+2019-02-01 16:24:05.843   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.843   Installing the file.
+2019-02-01 16:24:05.888   Successfully installed the file.
+2019-02-01 16:24:05.889   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.890   -- File entry --
+2019-02-01 16:24:05.893   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\vp8decoder.dll
+2019-02-01 16:24:05.894   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.894   Installing the file.
+2019-02-01 16:24:05.917   Successfully installed the file.
+2019-02-01 16:24:05.918   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.918   -- File entry --
+2019-02-01 16:24:05.918   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\webmsplit.dll
+2019-02-01 16:24:05.919   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.919   Installing the file.
+2019-02-01 16:24:05.934   Successfully installed the file.
+2019-02-01 16:24:05.934   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.934   -- File entry --
+2019-02-01 16:24:05.935   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfNativeFLACSource.dll
+2019-02-01 16:24:05.935   Non-default bitness: 64-bit
+2019-02-01 16:24:05.935   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.935   Installing the file.
+2019-02-01 16:24:05.935   Creating directory: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64
+2019-02-01 16:24:05.957   Successfully installed the file.
+2019-02-01 16:24:05.957   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.957   -- File entry --
+2019-02-01 16:24:05.958   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfOggDemux2.dll
+2019-02-01 16:24:05.958   Non-default bitness: 64-bit
+2019-02-01 16:24:05.958   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.958   Installing the file.
+2019-02-01 16:24:05.976   Successfully installed the file.
+2019-02-01 16:24:05.976   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:05.976   -- File entry --
+2019-02-01 16:24:05.977   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfOggMux.dll
+2019-02-01 16:24:05.977   Non-default bitness: 64-bit
+2019-02-01 16:24:05.978   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:05.978   Installing the file.
+2019-02-01 16:24:06.001   Successfully installed the file.
+2019-02-01 16:24:06.002   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:06.003   -- File entry --
+2019-02-01 16:24:06.003   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexDecoder.dll
+2019-02-01 16:24:06.003   Non-default bitness: 64-bit
+2019-02-01 16:24:06.004   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:06.004   Installing the file.
+2019-02-01 16:24:06.025   Successfully installed the file.
+2019-02-01 16:24:06.025   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:06.025   -- File entry --
+2019-02-01 16:24:06.027   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexEncoder.dll
+2019-02-01 16:24:06.027   Non-default bitness: 64-bit
+2019-02-01 16:24:06.027   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:06.027   Installing the file.
+2019-02-01 16:24:06.043   Successfully installed the file.
+2019-02-01 16:24:06.044   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:06.044   -- File entry --
+2019-02-01 16:24:06.046   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraDecoder.dll
+2019-02-01 16:24:06.046   Non-default bitness: 64-bit
+2019-02-01 16:24:06.046   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:06.046   Installing the file.
+2019-02-01 16:24:06.065   Successfully installed the file.
+2019-02-01 16:24:06.065   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:06.065   -- File entry --
+2019-02-01 16:24:06.067   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraEncoder.dll
+2019-02-01 16:24:06.067   Non-default bitness: 64-bit
+2019-02-01 16:24:06.067   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:06.067   Installing the file.
+2019-02-01 16:24:06.087   Successfully installed the file.
+2019-02-01 16:24:06.088   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:06.088   -- File entry --
+2019-02-01 16:24:06.090   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisDecoder.dll
+2019-02-01 16:24:06.090   Non-default bitness: 64-bit
+2019-02-01 16:24:06.090   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:06.090   Installing the file.
+2019-02-01 16:24:06.112   Successfully installed the file.
+2019-02-01 16:24:06.113   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:06.113   -- File entry --
+2019-02-01 16:24:06.113   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisEncoder.dll
+2019-02-01 16:24:06.113   Non-default bitness: 64-bit
+2019-02-01 16:24:06.114   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:06.114   Installing the file.
+2019-02-01 16:24:06.154   Successfully installed the file.
+2019-02-01 16:24:06.154   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:06.154   -- File entry --
+2019-02-01 16:24:06.154   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\vp8decoder.dll
+2019-02-01 16:24:06.154   Non-default bitness: 64-bit
+2019-02-01 16:24:06.154   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:06.154   Installing the file.
+2019-02-01 16:24:06.167   Successfully installed the file.
+2019-02-01 16:24:06.168   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:06.168   -- File entry --
+2019-02-01 16:24:06.168   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\webmsplit.dll
+2019-02-01 16:24:06.168   Non-default bitness: 64-bit
+2019-02-01 16:24:06.169   Time stamp of our file: 2017-09-10 16:14:48.000
+2019-02-01 16:24:06.169   Installing the file.
+2019-02-01 16:24:06.178   Successfully installed the file.
+2019-02-01 16:24:06.178   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:06.178   -- File entry --
+2019-02-01 16:24:06.178   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\aacpParser.dll
+2019-02-01 16:24:06.179   Time stamp of our file: 2017-09-10 16:14:50.000
+2019-02-01 16:24:06.179   Installing the file.
+2019-02-01 16:24:06.206   Successfully installed the file.
+2019-02-01 16:24:06.206   Will register the file (a DLL/OCX) later.
+2019-02-01 16:24:06.206   -- File entry --
+2019-02-01 16:24:06.207   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\acrcloud_extr_windows.dll
+2019-02-01 16:24:06.207   Time stamp of our file: 2017-09-10 16:13:10.000
+2019-02-01 16:24:06.207   Installing the file.
+2019-02-01 16:24:06.224   Successfully installed the file.
+2019-02-01 16:24:06.224   -- File entry --
+2019-02-01 16:24:06.225   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\AdjMmsEng.dll
+2019-02-01 16:24:06.225   Time stamp of our file: 2017-09-10 16:13:30.000
+2019-02-01 16:24:06.225   Installing the file.
+2019-02-01 16:24:06.497   Successfully installed the file.
+2019-02-01 16:24:06.497   -- File entry --
+2019-02-01 16:24:06.497   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\ApowersoftConverter.dll
+2019-02-01 16:24:06.497   Time stamp of our file: 2017-09-10 16:13:10.000
+2019-02-01 16:24:06.497   Installing the file.
+2019-02-01 16:24:07.162   Successfully installed the file.
+2019-02-01 16:24:07.162   -- File entry --
+2019-02-01 16:24:07.163   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\ApowersoftMusicPlayer.dll
+2019-02-01 16:24:07.163   Time stamp of our file: 2017-09-10 16:13:00.000
+2019-02-01 16:24:07.163   Installing the file.
+2019-02-01 16:24:07.234   Successfully installed the file.
+2019-02-01 16:24:07.235   -- File entry --
+2019-02-01 16:24:07.235   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\ApowersoftVideoHelper.dll
+2019-02-01 16:24:07.235   Time stamp of our file: 2018-07-31 10:21:40.000
+2019-02-01 16:24:07.235   Installing the file.
+2019-02-01 16:24:07.757   Successfully installed the file.
+2019-02-01 16:24:07.757   -- File entry --
+2019-02-01 16:24:07.758   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\AudioSoundRecorder.dll
+2019-02-01 16:24:07.758   Time stamp of our file: 2017-09-10 16:13:30.000
+2019-02-01 16:24:07.758   Installing the file.
+2019-02-01 16:24:07.778   Successfully installed the file.
+2019-02-01 16:24:07.778   -- File entry --
+2019-02-01 16:24:07.779   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\AxInterop.WMPLib.dll
+2019-02-01 16:24:07.779   Time stamp of our file: 2017-09-10 16:13:30.000
+2019-02-01 16:24:07.779   Installing the file.
+2019-02-01 16:24:07.782   Successfully installed the file.
+2019-02-01 16:24:07.782   -- File entry --
+2019-02-01 16:24:07.783   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Faac.exe
+2019-02-01 16:24:07.783   Time stamp of our file: 2017-09-10 16:13:10.000
+2019-02-01 16:24:07.783   Installing the file.
+2019-02-01 16:24:07.797   Successfully installed the file.
+2019-02-01 16:24:07.797   -- File entry --
+2019-02-01 16:24:07.798   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Interop.iTunesLib.dll
+2019-02-01 16:24:07.798   Time stamp of our file: 2017-09-10 16:13:10.000
+2019-02-01 16:24:07.798   Installing the file.
+2019-02-01 16:24:07.801   Successfully installed the file.
+2019-02-01 16:24:07.801   -- File entry --
+2019-02-01 16:24:07.802   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Interop.WMPLib.dll
+2019-02-01 16:24:07.802   Time stamp of our file: 2017-09-10 16:13:30.000
+2019-02-01 16:24:07.802   Installing the file.
+2019-02-01 16:24:07.812   Successfully installed the file.
+2019-02-01 16:24:07.812   -- File entry --
+2019-02-01 16:24:07.812   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lame.exe
+2019-02-01 16:24:07.812   Time stamp of our file: 2017-09-10 16:13:10.000
+2019-02-01 16:24:07.812   Installing the file.
+2019-02-01 16:24:07.860   Successfully installed the file.
+2019-02-01 16:24:07.861   -- File entry --
+2019-02-01 16:24:07.863   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\log.xml
+2019-02-01 16:24:07.863   Time stamp of our file: 2017-09-10 16:12:40.000
+2019-02-01 16:24:07.863   Installing the file.
+2019-02-01 16:24:07.867   Successfully installed the file.
+2019-02-01 16:24:07.867   -- File entry --
+2019-02-01 16:24:07.868   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\MediaInfo.dll
+2019-02-01 16:24:07.868   Time stamp of our file: 2017-09-10 16:13:10.000
+2019-02-01 16:24:07.868   Installing the file.
+2019-02-01 16:24:08.052   Successfully installed the file.
+2019-02-01 16:24:08.052   -- File entry --
+2019-02-01 16:24:08.053   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\msvcp100.dll
+2019-02-01 16:24:08.053   Time stamp of our file: 2017-09-10 16:13:10.000
+2019-02-01 16:24:08.053   Installing the file.
+2019-02-01 16:24:08.067   Successfully installed the file.
+2019-02-01 16:24:08.067   -- File entry --
+2019-02-01 16:24:08.067   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\msvcr100.dll
+2019-02-01 16:24:08.068   Time stamp of our file: 2017-09-10 16:13:10.000
+2019-02-01 16:24:08.068   Installing the file.
+2019-02-01 16:24:08.093   Successfully installed the file.
+2019-02-01 16:24:08.093   -- File entry --
+2019-02-01 16:24:08.094   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\OggEnc.exe
+2019-02-01 16:24:08.094   Time stamp of our file: 2017-09-10 16:13:10.000
+2019-02-01 16:24:08.094   Installing the file.
+2019-02-01 16:24:08.120   Successfully installed the file.
+2019-02-01 16:24:08.120   -- File entry --
+2019-02-01 16:24:08.120   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\SimMetrics.dll
+2019-02-01 16:24:08.121   Time stamp of our file: 2017-09-10 16:13:30.000
+2019-02-01 16:24:08.121   Installing the file.
+2019-02-01 16:24:08.124   Successfully installed the file.
+2019-02-01 16:24:08.124   -- File entry --
+2019-02-01 16:24:08.124   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Streaming Audio Recorder.exe
+2019-02-01 16:24:08.124   Time stamp of our file: 2018-08-27 17:33:28.000
+2019-02-01 16:24:08.125   Installing the file.
+2019-02-01 16:24:08.479   Successfully installed the file.
+2019-02-01 16:24:08.480   -- File entry --
+2019-02-01 16:24:08.480   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Streaming Audio Recorder.exe.config
+2019-02-01 16:24:08.481   Time stamp of our file: 2017-09-10 16:12:40.000
+2019-02-01 16:24:08.481   Installing the file.
+2019-02-01 16:24:08.483   Successfully installed the file.
+2019-02-01 16:24:08.483   -- File entry --
+2019-02-01 16:24:08.483   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Wma.exe
+2019-02-01 16:24:08.484   Time stamp of our file: 2017-09-10 16:13:10.000
+2019-02-01 16:24:08.484   Installing the file.
+2019-02-01 16:24:08.490   Successfully installed the file.
+2019-02-01 16:24:08.490   -- File entry --
+2019-02-01 16:24:08.491   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Arabic.xml
+2019-02-01 16:24:08.491   Time stamp of our file: 2018-05-23 15:10:06.000
+2019-02-01 16:24:08.491   Installing the file.
+2019-02-01 16:24:08.491   Creating directory: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang
+2019-02-01 16:24:08.493   Successfully installed the file.
+2019-02-01 16:24:08.493   -- File entry --
+2019-02-01 16:24:08.493   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\ChineseSimplified.xml
+2019-02-01 16:24:08.494   Time stamp of our file: 2018-05-23 15:10:28.000
+2019-02-01 16:24:08.494   Installing the file.
+2019-02-01 16:24:08.496   Successfully installed the file.
+2019-02-01 16:24:08.496   -- File entry --
+2019-02-01 16:24:08.496   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\ChineseTraditional.xml
+2019-02-01 16:24:08.496   Time stamp of our file: 2018-05-23 15:11:36.000
+2019-02-01 16:24:08.496   Installing the file.
+2019-02-01 16:24:08.498   Successfully installed the file.
+2019-02-01 16:24:08.498   -- File entry --
+2019-02-01 16:24:08.499   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Czech.xml
+2019-02-01 16:24:08.499   Time stamp of our file: 2018-05-23 15:12:22.000
+2019-02-01 16:24:08.499   Installing the file.
+2019-02-01 16:24:08.502   Successfully installed the file.
+2019-02-01 16:24:08.502   -- File entry --
+2019-02-01 16:24:08.503   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Danish.xml
+2019-02-01 16:24:08.503   Time stamp of our file: 2018-05-23 15:12:48.000
+2019-02-01 16:24:08.503   Installing the file.
+2019-02-01 16:24:08.505   Successfully installed the file.
+2019-02-01 16:24:08.505   -- File entry --
+2019-02-01 16:24:08.505   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Dutch.xml
+2019-02-01 16:24:08.505   Time stamp of our file: 2018-05-23 15:13:40.000
+2019-02-01 16:24:08.505   Installing the file.
+2019-02-01 16:24:08.507   Successfully installed the file.
+2019-02-01 16:24:08.508   -- File entry --
+2019-02-01 16:24:08.508   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\English.xml
+2019-02-01 16:24:08.508   Time stamp of our file: 2018-05-23 15:16:54.000
+2019-02-01 16:24:08.508   Installing the file.
+2019-02-01 16:24:08.510   Successfully installed the file.
+2019-02-01 16:24:08.510   -- File entry --
+2019-02-01 16:24:08.511   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Finnish.xml
+2019-02-01 16:24:08.511   Time stamp of our file: 2018-05-23 15:19:56.000
+2019-02-01 16:24:08.511   Installing the file.
+2019-02-01 16:24:08.513   Successfully installed the file.
+2019-02-01 16:24:08.513   -- File entry --
+2019-02-01 16:24:08.513   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\French.xml
+2019-02-01 16:24:08.513   Time stamp of our file: 2018-05-23 15:20:54.000
+2019-02-01 16:24:08.513   Installing the file.
+2019-02-01 16:24:08.516   Successfully installed the file.
+2019-02-01 16:24:08.516   -- File entry --
+2019-02-01 16:24:08.516   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\German.xml
+2019-02-01 16:24:08.517   Time stamp of our file: 2018-05-23 15:24:20.000
+2019-02-01 16:24:08.517   Installing the file.
+2019-02-01 16:24:08.519   Successfully installed the file.
+2019-02-01 16:24:08.519   -- File entry --
+2019-02-01 16:24:08.519   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Greek.xml
+2019-02-01 16:24:08.519   Time stamp of our file: 2018-05-23 15:30:12.000
+2019-02-01 16:24:08.519   Installing the file.
+2019-02-01 16:24:08.523   Successfully installed the file.
+2019-02-01 16:24:08.524   -- File entry --
+2019-02-01 16:24:08.525   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Hungarian.xml
+2019-02-01 16:24:08.526   Time stamp of our file: 2018-05-23 15:31:06.000
+2019-02-01 16:24:08.526   Installing the file.
+2019-02-01 16:24:08.534   Successfully installed the file.
+2019-02-01 16:24:08.534   -- File entry --
+2019-02-01 16:24:08.536   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Italian.xml
+2019-02-01 16:24:08.536   Time stamp of our file: 2018-05-23 15:32:16.000
+2019-02-01 16:24:08.536   Installing the file.
+2019-02-01 16:24:08.543   Successfully installed the file.
+2019-02-01 16:24:08.543   -- File entry --
+2019-02-01 16:24:08.546   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Japanese.xml
+2019-02-01 16:24:08.546   Time stamp of our file: 2018-05-23 15:33:24.000
+2019-02-01 16:24:08.546   Installing the file.
+2019-02-01 16:24:08.553   Successfully installed the file.
+2019-02-01 16:24:08.554   -- File entry --
+2019-02-01 16:24:08.555   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Norwegian.xml
+2019-02-01 16:24:08.556   Time stamp of our file: 2018-05-23 15:33:56.000
+2019-02-01 16:24:08.556   Installing the file.
+2019-02-01 16:24:08.563   Successfully installed the file.
+2019-02-01 16:24:08.563   -- File entry --
+2019-02-01 16:24:08.565   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Polish.xml
+2019-02-01 16:24:08.565   Time stamp of our file: 2018-05-23 15:34:48.000
+2019-02-01 16:24:08.565   Installing the file.
+2019-02-01 16:24:08.572   Successfully installed the file.
+2019-02-01 16:24:08.574   -- File entry --
+2019-02-01 16:24:08.575   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Portuguese.xml
+2019-02-01 16:24:08.576   Time stamp of our file: 2018-05-23 15:35:16.000
+2019-02-01 16:24:08.576   Installing the file.
+2019-02-01 16:24:08.582   Successfully installed the file.
+2019-02-01 16:24:08.583   -- File entry --
+2019-02-01 16:24:08.584   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\PortugueseBrazil.xml
+2019-02-01 16:24:08.585   Time stamp of our file: 2018-05-23 15:35:30.000
+2019-02-01 16:24:08.585   Installing the file.
+2019-02-01 16:24:08.591   Successfully installed the file.
+2019-02-01 16:24:08.591   -- File entry --
+2019-02-01 16:24:08.592   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Slovenian.xml
+2019-02-01 16:24:08.593   Time stamp of our file: 2018-05-23 15:39:38.000
+2019-02-01 16:24:08.593   Installing the file.
+2019-02-01 16:24:08.600   Successfully installed the file.
+2019-02-01 16:24:08.600   -- File entry --
+2019-02-01 16:24:08.601   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Spanish.xml
+2019-02-01 16:24:08.601   Time stamp of our file: 2018-05-23 15:40:02.000
+2019-02-01 16:24:08.601   Installing the file.
+2019-02-01 16:24:08.609   Successfully installed the file.
+2019-02-01 16:24:08.609   -- File entry --
+2019-02-01 16:24:08.611   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Swedish.xml
+2019-02-01 16:24:08.611   Time stamp of our file: 2018-05-23 15:40:44.000
+2019-02-01 16:24:08.611   Installing the file.
+2019-02-01 16:24:08.618   Successfully installed the file.
+2019-02-01 16:24:08.618   -- File entry --
+2019-02-01 16:24:08.620   Dest filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Lang\Turkish.xml
+2019-02-01 16:24:08.620   Time stamp of our file: 2018-05-23 15:41:10.000
+2019-02-01 16:24:08.620   Installing the file.
+2019-02-01 16:24:08.630   Successfully installed the file.
+2019-02-01 16:24:08.631   -- Icon entry --
+2019-02-01 16:24:08.631   Dest filename: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Apowersoft\Streaming Audio Recorder\Streaming Audio Recorder.lnk
+2019-02-01 16:24:08.633   Creating directory: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Apowersoft
+2019-02-01 16:24:08.651   Creating directory: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Apowersoft\Streaming Audio Recorder
+2019-02-01 16:24:08.673   Creating the icon.
+2019-02-01 16:24:08.924   Successfully created the icon.
+2019-02-01 16:24:08.940   -- Icon entry --
+2019-02-01 16:24:08.940   Dest filename: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Apowersoft\Streaming Audio Recorder\Streaming Audio Recorder on the Web.url
+2019-02-01 16:24:08.941   Creating the icon.
+2019-02-01 16:24:08.948   Successfully created the icon.
+2019-02-01 16:24:09.022   -- Icon entry --
+2019-02-01 16:24:09.022   Dest filename: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Apowersoft\Streaming Audio Recorder\Uninstall Streaming Audio Recorder.lnk
+2019-02-01 16:24:09.023   Creating the icon.
+2019-02-01 16:24:09.334   Successfully created the icon.
+2019-02-01 16:24:09.339   -- Icon entry --
+2019-02-01 16:24:09.339   Dest filename: C:\Users\Public\Desktop\Streaming Audio Recorder.lnk
+2019-02-01 16:24:09.340   Creating the icon.
+2019-02-01 16:24:09.351   Successfully created the icon.
+2019-02-01 16:24:09.357   -- Icon entry --
+2019-02-01 16:24:09.357   Dest filename: C:\Users\Cristain\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\Streaming Audio Recorder.lnk
+2019-02-01 16:24:09.358   Creating the icon.
+2019-02-01 16:24:09.372   Successfully created the icon.
+2019-02-01 16:24:09.446   -- INI entry --
+2019-02-01 16:24:09.446   Dest filename: C:\Users\Cristain\AppData\Roaming\Apowersoft\Streaming Audio Recorder\config.ini 
+2019-02-01 16:24:09.446   Section: Main
+2019-02-01 16:24:09.446   Entry: Language
+2019-02-01 16:24:09.446   Value: English
+2019-02-01 16:24:09.446   Updating the .INI file.
+2019-02-01 16:24:09.453   Successfully updated the .INI file.
+2019-02-01 16:24:09.453   -- INI entry --
+2019-02-01 16:24:09.453   Dest filename: C:\Users\Cristain\AppData\Roaming\Apowersoft\Streaming Audio Recorder\config.ini
+2019-02-01 16:24:09.453   Section: Main
+2019-02-01 16:24:09.453   Entry: ID
+2019-02-01 16:24:09.453   Value: 5041
+2019-02-01 16:24:09.453   Updating the .INI file.
+2019-02-01 16:24:09.457   Successfully updated the .INI file.
+2019-02-01 16:24:09.457   -- INI entry --
+2019-02-01 16:24:09.457   Dest filename: C:\Users\Cristain\AppData\Roaming\Apowersoft\Streaming Audio Recorder\config.ini
+2019-02-01 16:24:09.457   Section: Main
+2019-02-01 16:24:09.457   Entry: Version
+2019-02-01 16:24:09.457   Value: V4.2.3 (Build 08/27/2018)
+2019-02-01 16:24:09.457   Updating the .INI file.
+2019-02-01 16:24:09.462   Successfully updated the .INI file.
+2019-02-01 16:24:09.462   -- INI entry --
+2019-02-01 16:24:09.462   Dest filename: C:\Users\Cristain\AppData\Roaming\Apowersoft\Streaming Audio Recorder\config.ini 
+2019-02-01 16:24:09.462   Section: Main
+2019-02-01 16:24:09.462   Entry: HideLang
+2019-02-01 16:24:09.462   Value: 0
+2019-02-01 16:24:09.463   Updating the .INI file.
+2019-02-01 16:24:09.469   Successfully updated the .INI file.
+2019-02-01 16:24:09.469   -- INI entry --
+2019-02-01 16:24:09.469   Dest filename: C:\Users\Cristain\AppData\Roaming\Apowersoft\Streaming Audio Recorder\config.ini 
+2019-02-01 16:24:09.469   Section: Main
+2019-02-01 16:24:09.469   Entry: Type
+2019-02-01 16:24:09.469   Value: 
+2019-02-01 16:24:09.469   Updating the .INI file.
+2019-02-01 16:24:09.474   Successfully updated the .INI file.
+2019-02-01 16:24:09.476   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfNativeFLACSource.dll
+2019-02-01 16:24:09.480   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfNativeFLACSource.dll"
+2019-02-01 16:24:09.642   Registration successful.
+2019-02-01 16:24:09.642   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfOggDemux2.dll
+2019-02-01 16:24:09.646   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfOggDemux2.dll"
+2019-02-01 16:24:09.732   Registration successful.
+2019-02-01 16:24:09.732   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfOggMux.dll
+2019-02-01 16:24:09.736   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfOggMux.dll"
+2019-02-01 16:24:09.837   Registration successful.
+2019-02-01 16:24:09.837   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexDecoder.dll
+2019-02-01 16:24:09.842   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexDecoder.dll"
+2019-02-01 16:24:09.911   Registration successful.
+2019-02-01 16:24:09.911   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexEncoder.dll
+2019-02-01 16:24:09.915   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexEncoder.dll"
+2019-02-01 16:24:09.997   Registration successful.
+2019-02-01 16:24:09.997   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraDecoder.dll
+2019-02-01 16:24:10.001   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraDecoder.dll"
+2019-02-01 16:24:10.082   Registration successful.
+2019-02-01 16:24:10.082   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraEncoder.dll
+2019-02-01 16:24:10.087   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraEncoder.dll"
+2019-02-01 16:24:10.174   Registration successful.
+2019-02-01 16:24:10.174   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisDecoder.dll
+2019-02-01 16:24:10.178   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisDecoder.dll"
+2019-02-01 16:24:10.264   Registration successful.
+2019-02-01 16:24:10.264   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisEncoder.dll
+2019-02-01 16:24:10.268   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisEncoder.dll"
+2019-02-01 16:24:10.371   Registration successful.
+2019-02-01 16:24:10.371   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\vp8decoder.dll
+2019-02-01 16:24:10.377   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\vp8decoder.dll"
+2019-02-01 16:24:10.515   Registration successful.
+2019-02-01 16:24:10.515   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\webmsplit.dll
+2019-02-01 16:24:10.524   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x86\webmsplit.dll"
+2019-02-01 16:24:10.620   Registration successful.
+2019-02-01 16:24:10.620   Registering 64-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfNativeFLACSource.dll
+2019-02-01 16:24:10.623   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfNativeFLACSource.dll"
+2019-02-01 16:24:10.743   Registration successful.
+2019-02-01 16:24:10.743   Registering 64-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfOggDemux2.dll
+2019-02-01 16:24:10.754   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfOggDemux2.dll"
+2019-02-01 16:24:10.853   Registration successful.
+2019-02-01 16:24:10.853   Registering 64-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfOggMux.dll
+2019-02-01 16:24:10.883   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfOggMux.dll"
+2019-02-01 16:24:10.975   Registration successful.
+2019-02-01 16:24:10.975   Registering 64-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexDecoder.dll
+2019-02-01 16:24:10.986   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexDecoder.dll"
+2019-02-01 16:24:11.061   Registration successful.
+2019-02-01 16:24:11.061   Registering 64-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexEncoder.dll
+2019-02-01 16:24:11.067   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexEncoder.dll"
+2019-02-01 16:24:11.127   Registration successful.
+2019-02-01 16:24:11.127   Registering 64-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraDecoder.dll
+2019-02-01 16:24:11.130   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraDecoder.dll"
+2019-02-01 16:24:11.188   Registration successful.
+2019-02-01 16:24:11.188   Registering 64-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraEncoder.dll
+2019-02-01 16:24:11.194   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraEncoder.dll"
+2019-02-01 16:24:11.255   Registration successful.
+2019-02-01 16:24:11.255   Registering 64-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisDecoder.dll
+2019-02-01 16:24:11.262   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisDecoder.dll"
+2019-02-01 16:24:11.325   Registration successful.
+2019-02-01 16:24:11.325   Registering 64-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisEncoder.dll
+2019-02-01 16:24:11.332   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisEncoder.dll"
+2019-02-01 16:24:11.393   Registration successful.
+2019-02-01 16:24:11.393   Registering 64-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\vp8decoder.dll
+2019-02-01 16:24:11.397   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\vp8decoder.dll"
+2019-02-01 16:24:11.460   Registration successful.
+2019-02-01 16:24:11.460   Registering 64-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\webmsplit.dll
+2019-02-01 16:24:11.464   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\x64\webmsplit.dll"
+2019-02-01 16:24:11.517   Registration successful.
+2019-02-01 16:24:11.517   Registering 32-bit DLL/OCX: C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\aacpParser.dll
+2019-02-01 16:24:11.521   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\Users\Cristain\Desktop\Streaming Audio Recorder\wmpplugins\aacpParser.dll"
+2019-02-01 16:24:11.598   Registration successful.
+2019-02-01 16:24:11.639   Installation process succeeded.
+2019-02-01 16:24:12.953   Need to restart Windows? No
+2019-02-01 16:24:15.287   -- Run entry --
+2019-02-01 16:24:15.287   Run as: Original user
+2019-02-01 16:24:15.287   Type: Exec
+2019-02-01 16:24:15.287   Filename: C:\Users\Cristain\Desktop\Streaming Audio Recorder\Streaming Audio Recorder.exe

@@ -1,0 +1,86 @@
+.Slideshow{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+
+    .slide{
+        img{
+            width: 100%;
+            vertical-align: middle;
+        }
+
+        .SlideText{
+            color: $White_C;
+            font-size: 20px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 90%;
+            background-color: rgba($Black-C, $alpha: .5);
+        }
+    }
+
+    .last, .next{
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        top: 50%;
+        padding: 0% 3%;
+        color: $White_C;
+        font-weight: bold;
+        font-size: 28px;
+        transition: 0.4s ease;
+        &:hover{
+            color: $Black_C;
+            font-size: 32px;
+        }
+    }
+    
+    .next{
+        right: 0;
+    }
+    .slideNum{
+        color: $White_C;
+        font-size: 16px;
+        padding: 4px;
+        margin: 2%;
+        border-radius: 60%;
+        background-color: rgba(38, 38, 38, 0.7);
+        position: absolute;
+        top: 0;
+      }
+}
+
+@media only screen and(max-width : 2000px){
+    .SlideText{
+        font-size: 50px;
+    }
+    .last, .next{
+        font-size: 50px;
+        &:hover{
+            font-size: 80px;
+        }
+    }
+    .slideNum{
+        font-size: 32px;
+    }
+}
+
+@media only screen and(max-width : 400px){
+    .last, .next, .SlideText .slideNum{
+        font-size: 11px;
+    }
+
+    .Slideshow{
+        .slide{
+            .SlideText{
+                top: 80%;
+                font-size: 14px;
+            }
+        }
+    }
+    .SlideText{
+        top: 80%;
+    }
+}

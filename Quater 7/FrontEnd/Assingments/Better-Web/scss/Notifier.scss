@@ -1,0 +1,74 @@
+.notifButton{
+    font-size: 18px;
+    padding: 2%;
+}
+
+.Notification{
+    visibility: hidden;
+    min-width: 300px;
+    background-color: #262626;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 3%;
+    position: fixed;
+    z-index: 1;
+    left: 37%;
+    bottom: 5%;
+    border: 1px solid $White-C;
+}
+
+#NotifVisible{
+    visibility: visible;
+    animation: fadeinFromBot 0.5s, fadeoutFromBot 0.5s 2.5s;
+}
+
+@keyframes fadeinFromBot {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+
+@keyframes fadeoutFromBot {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+@keyframes fadeout {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
+
+@media all and (min-width: 2000px){
+    .notifButton{
+        font-size: 48px;
+    }
+
+    .Notification{
+        font-size: 24px;
+    }
+}
+
+@media all and (max-width: 700px){
+    .Notification{
+        min-width: 100px;
+        left: 27%;     
+        font-size: 12px;  
+    }
+}
+
+@media all and (max-width: 450px){
+    .Notification{
+        left: 20%;
+    }
+}
+
+@media all and (max-width: 360px){
+    .Notification{
+        left: 11%;
+    }
+}
+

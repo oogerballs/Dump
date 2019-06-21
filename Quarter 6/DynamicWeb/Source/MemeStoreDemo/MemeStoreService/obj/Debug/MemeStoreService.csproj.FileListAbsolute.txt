@@ -1,0 +1,17 @@
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreService\bin\Debug\MemeStoreService.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreService\bin\Debug\MemeStoreService.pdb
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreService\obj\Debug\MemeStoreService.csproj.CoreCompileInputs.cache
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreService\obj\Debug\MemeStoreService.dll
+D:\Dropbox\Neumont\Projects\CSC260\MemeStoreDemo\MemeStoreService\obj\Debug\MemeStoreService.pdb
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\bin\Debug\MemeStoreService.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\bin\Debug\MemeStoreService.pdb
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\obj\Debug\MemeStoreService.csprojAssemblyReference.cache
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\obj\Debug\MemeStoreService.csproj.CoreCompileInputs.cache
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\obj\Debug\MemeStoreService.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\obj\Debug\MemeStoreService.pdb
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\bin\Debug\MemeStoreService.dll.config
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\bin\Debug\EntityFramework.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\bin\Debug\EntityFramework.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cristain\Desktop\Quarter 6\DynamicWeb\Source\MemeStoreDemo\MemeStoreService\obj\Debug\MemeStoreService.csproj.CopyComplete

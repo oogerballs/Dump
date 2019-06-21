@@ -1,0 +1,397 @@
+@import 'reset';
+@import 'font-Style';
+@import 'buttons';
+@import 'banners';
+@import 'slideShow';
+@import 'Collapsible';
+@import 'scrollabel';
+@import 'Notifier';
+$HTag-size: 40px;
+$height: 40px;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+    flex: 1;
+}
+html{
+    display: flex;
+}
+
+head{
+    display: flex;
+}
+
+body{
+    display: flex;
+    width: 100%;
+}
+
+table{
+    display: flex;
+}
+
+button{
+    flex: 1;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    border-radius: 1%;
+}
+
+.border{
+    border: 1px solid $Black-C;
+}
+
+pre{
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+
+pre code {
+    background-color: darken($White_C, 20);
+    border: 1px solid #999;
+    display: flex;
+    flex: 1;
+    padding: 5px;
+}
+
+.Height_40{
+    height: $height;
+}
+.Height_80{
+    height: $height + 40;
+}
+.Height_120{
+    height: $height + 80;
+}
+.Height_160{
+    height: $height + 120;
+}
+.Height_200{
+    height: $height + 160;
+}
+.Height_240{
+    height: $height + 200;
+}
+.Height_280{
+    height: $height + 240;
+}
+.Height_320{
+    height: $height + 280;
+}
+.Height_360{
+    height: $height + 320;
+}
+.Height_400{
+    height: $height + 360;
+}
+
+// Text
+h1,h2,h3,h4,h5 {
+    color: $Black-C;
+    flex: 1;
+}
+
+h1{
+    font-size: $HTag-size;
+}
+
+h2{
+    font-size: $HTag-size - 10;
+}
+
+h3{
+    font-size: $HTag-size - 15;
+}
+
+h4{
+    font-size: $HTag-size - 20;
+}
+
+h5{
+    font-size: $HTag-size - 25
+}
+
+h6{
+    font-size: $HTag-size - 30
+}
+
+section{
+    width: 100%;
+    flex: 1;
+}
+
+nav{
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    height: 50px;
+    margin: 2% 8%;
+    li{
+        padding-top: 10px;
+        flex: 1;
+        list-style: none;
+        transition: .5;
+        a{
+            font-size: 20px;
+            text-align: center;
+            color: $White_C;
+            transition: .5s;
+            padding: 10px 10px;
+            &:hover{
+                color: darken($White_C, 20);
+            }
+            &:active{
+                color: $Prime-R;
+            }
+            
+        }
+        .link_B{
+            color: $Black_C;
+            transition: .5s;
+            &:hover{
+                color: lighten($Black-C, 20);
+            }
+            &:active{
+                color: $Prime-R;
+            }
+        }
+        .link_R{
+            color: $Prime-R;
+            transition: .5s;
+            &:hover{
+                color: darken($Prime-R, 20);
+            }
+            &:active{
+                color: $Prime-B;
+            }
+        }
+        .link_G{
+            color: $Prime-G;
+            transition: .5s;
+            &:hover{
+                color: darken($Prime-G, 20);
+            }
+            &:active{
+                color: $Prime-R;
+            }
+        }
+        .link_Blue{
+            color: $Prime-B;
+            transition: .5s;
+            &:hover{
+                color: darken($Prime-B, 20);
+            }
+            &:active{
+                color: $Prime-R;
+            }
+        }
+        &:hover{
+            .DropContent{
+                display: block;
+            }
+        }
+        .DropContent{
+            display: none;
+            position: relative;
+            background-color: $White-C;
+            width: 80%;
+            z-index: 1;
+            a{
+                color: $Black-C;
+                padding: 2%;
+                text-decoration: none;
+                display: block;
+
+                &:hover{
+                    background-color: darken($White-C, 10%);
+                }
+            }
+            animation: fadein 0.5s;
+        }
+    }
+}
+
+.modal{ 
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba($Black-C, .7);
+
+    .modalCont{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    .ModalH {
+        padding: 25px 26px;
+        background-color: $Prime-G;
+        color: $White_C;
+    }
+    .ModalB {
+            padding: 2px 16px;
+
+            p{
+                margin: 16px 0px;
+            }
+    }
+    .ModalF {
+            padding: 24px 26px;
+            background-color: $Prime-G;
+            color: $White_C;    
+    }
+    .Close{
+            color: $White_C;
+            float: right;
+            font-size: 30px;
+            font-weight: bold;
+            transition: 0.5;
+        
+            &:hover, &:focus{
+                color: $Black-C;
+                text-decoration: none;
+                cursor: pointer;
+            }
+    }
+}
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+  
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+//griding
+.Content-full{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    .row{
+        display: flex;
+        flex: 1;
+        min-width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .col{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        min-width: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+.Content{
+    display: flex;
+    width: 80%;
+    margin: 0% 10%;
+    flex: 0 0 100%;
+    max-width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .row{
+        display: flex;
+        flex: 1;
+        min-width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .col{
+        display: flex;
+        flex-direction: row;
+        min-height: 100%;
+    }
+}
+
+footer{
+    flex: 1;
+    background-color: darken($Black-C, 20);
+    color: $White_C;
+    padding: 2% 12%;
+}
+
+@media all and (max-width: 1000px){
+    nav{
+        margin: 2% 4%;
+    }
+}
+
+@media all and (max-width: 600px){
+    nav{
+        margin: 2% 0%;
+    }
+
+    .hide600{
+        display: none;
+    }
+    
+    nav{
+        li{
+            a{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 400px){
+    .hide400{
+        display: none;
+    }
+    nav{
+        li{
+            a{
+                font-size: 11px;
+            }
+        }
+    }
+    pre{
+        code{
+            font-size: 10px;
+        }
+    }
+}
+
+@media all and (max-width: 300px){
+    .hide3d00{
+        display: none;
+    }
+}

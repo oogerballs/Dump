@@ -1,0 +1,291 @@
+@font-face{
+    font-family: Bubba;
+    src: url("font/ITCKRIST.ttf");
+}
+html{
+    background-color: #295F8E;
+}
+
+.box {
+    flex: 1;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+#container2 {
+    flex: 1.9;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-width: 739px;
+}
+
+#Menu{
+    border-radius: 20px;
+    border: #96000E solid 2px;
+    margin-right: 4%;
+    margin-left: 3%;
+    flex: .8;
+}
+
+#Menu p{
+    color: #96000E;
+    font-family: Bubba;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#SpecialTop{
+    width: 100%;
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+    font-family: arial;
+    padding-left: 5%;
+    padding-right: 23%;
+}
+
+#SpecialBot{
+    width: 100%;
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+    font-family: arial;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 4%;
+}
+
+#TopBan{
+    max-height: 88px;
+}
+
+#TopBan img{
+    width: 100%;
+    max-height: 88px;
+}
+
+#content{
+    flex: 2.8;
+    display: flex;
+    flex-direction: column;
+    background-color: #CBBF85;
+    margin: 0px 12px;
+    box-shadow: 4px 0px 8px black;
+}
+
+#container3{
+    flex: 1.4;
+    display: flex;
+    flex-direction: row;
+}
+
+#hook{
+    flex: .2;
+    max-width: 113px;
+}
+
+#hook img{
+    height: 290px;
+    margin-left: 45px;
+}
+
+
+#container4{
+    display: flex;
+    flex-direction: column;
+}
+
+#container5{
+    display: flex;
+    flex-direction: row;
+}
+
+#Picture{
+    flex: 1.6;
+}
+
+#fish{
+    height: 100%;
+    width: 100%;
+}
+
+#Title{
+    flex: .3;
+    color: #96000E;    
+    padding-left: 13%;
+}
+
+#Title p{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Bubba;
+    text-align: center;
+}
+
+#about{
+    flex: .2;
+    max-height: 35px;
+    text-align: center;
+}
+
+#about p{
+    margin: 3px 0px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Bubba;
+    color: #96000E;
+}
+
+#text{
+    background-color: #CCBF84;
+    flex: .4;
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: 234px;
+    column-count: 3;
+    font-size: 13px;
+    padding: 0% 2%;
+}
+
+#BotBan{
+    flex: .1;
+    display: flex;
+    flex-direction: column;
+}
+
+#botBanTop{
+margin: 0% 1%;
+background-color: black;
+border: #96000E 2px solid;
+box-shadow: 3px 5px 5px black;
+}
+
+#botBanBot{
+    background-color: black;
+    border: #96000E 2px solid;
+    box-shadow: 4px 4px 5px #111;
+}
+
+#spacer3{
+    flex: .3;
+}
+
+@media all and (min-width: 2000px){
+    #Picture{
+        flex: .5;
+    }
+
+    #Title{
+        padding-left: 30%;
+    }
+
+    #Menu{
+        flex: .4;
+    }
+}
+
+@media all and (max-width: 950px){
+    #spacer{
+        display: none;
+    }
+
+    #spacer2{
+        display: none;
+    }
+
+    #spacer3{
+        display: none;
+    }
+
+    #TopBan img{
+        width: 100%;
+        max-height: 88px;
+        min-height: 88px;
+    }
+    
+    #hook{
+        display: none;
+    }
+
+    #container2 {
+        min-width: 450px;
+    }
+    
+    #Title{
+        padding-left: 28%;
+    }
+    #container3{
+        flex: .8;
+    }
+
+    #container5{
+        max-height: 290px;
+    }
+
+    #fish{
+       margin: 5%;
+        height: 80%;
+        width: 80%;
+    }
+
+    #content{
+        height: 800px
+    }
+}
+
+@media all and (max-width: 590px){
+    #container5{
+        flex-direction: column;
+    }    
+
+    #about{
+        flex: 0;
+    }
+    #Title{
+        padding-left: 5%;
+        flex: .1;
+    }
+
+    #Menu{
+        border: none;
+        margin: 0%;
+    }
+
+    #Menu p{
+        margin-top: -15px;
+    }
+
+    #SpecialTop{
+        width: 70%;
+        font-size: 10px;
+        padding-left: 22%;
+        padding-right: 0%;
+    }
+
+    #SpecialBot{
+        width: 83%;
+        font-size: 10px;
+        padding-left: 22%;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    #text{
+        column-count: 1;
+        font-size: 11px; 
+        flex: .3;
+    }
+    
+    #fish{
+        margin: 2% 21%;
+        height: 80%;
+        width: 59%;
+    }
+
+    #content{
+        height: 731px
+    }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e46b939cab4342649ee001a7a18a7333" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="SocialMediaModel.Favorite" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialMediaModel.Image" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialMediaModel.NewsFeed" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialMediaModel.Profile" Width="1.5" PointX="6.375" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialMediaModel.AspNetRole" Width="1.5" PointX="3.75" PointY="8.25" />
+        <EntityTypeShape EntityType="SocialMediaModel.AspNetUserClaim" Width="1.5" PointX="3" PointY="10.75" />
+        <EntityTypeShape EntityType="SocialMediaModel.AspNetUserLogin" Width="1.5" PointX="3" PointY="13.5" />
+        <EntityTypeShape EntityType="SocialMediaModel.AspNetUser" Width="1.5" PointX="12.375" PointY="0.5" />
+        <AssociationConnector Association="SocialMediaModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="SocialMediaModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="SocialMediaModel.FK__Image__UserId__06CD04F7" />
+        <AssociationConnector Association="SocialMediaModel.FK__Profile__UserId__05D8E0BE" />
+        <AssociationConnector Association="SocialMediaModel.FK__Image__ProfileId__04E4BC85" />
+        <AssociationConnector Association="SocialMediaModel.AspNetUserRoles" />
+        <EntityTypeShape EntityType="SocialMediaModel.C__MigrationHistory" Width="1.5" PointX="5.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

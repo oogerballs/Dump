@@ -1,0 +1,82 @@
+.box {
+    border: 1px solid #000;
+    flex: 1;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    order: 3
+}
+#box1 {
+    flex: 0.1;
+    display: flex;
+    flex-direction: row;
+    order: 2;
+}
+#box2 {
+    max-height: 50px;
+    min-height: 50px;
+    order: 1;
+}
+#box3 {
+    flex: 1.5;
+    order: 3;
+}
+#box4 {
+    flex: 0.5;
+    order: 4;
+    max-width: 200px;
+    min-width: 200px;
+}
+#box5 {
+    flex: 0.2;
+    order: 5;
+}
+
+#spacer{
+    flex: 6;
+}
+
+@media screen and (max-width: 800){
+    #box2{
+        display: none;
+    }
+}
+
+@media all and (max-width: 550px){
+    #box2{
+        display: none;
+    }
+    #box1{
+        flex: .5;
+        flex-direction: column;
+    }
+    #box2{
+        flex: 2;
+	display: none;
+    }
+    #container{
+        height: none;
+    }
+
+    #container2{
+        height: none;
+        flex: 1;
+    }
+
+    #box4{
+        display: none;
+    }
+
+    #box5{
+        flex: 0.1;
+    }
+    
+}

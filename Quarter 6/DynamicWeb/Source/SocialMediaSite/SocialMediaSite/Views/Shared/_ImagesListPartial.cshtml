@@ -1,0 +1,17 @@
+﻿@model SocialMediaSite.Models.Image
+
+<div class="GalleryBox">
+    <div class="ImageName">
+        <h3>@Model.ImageName</h3>
+    </div>
+
+    <div class="panel-body ImageBody">
+        <a href="/Home/Imagedetail/@Model.ImageId">
+        <img src="@Model.ImgSrc" />
+        </a>
+    </div>
+
+    <div class="panel-footer ImageCaption">
+        <p>@Model.Caption</p>
+    </div>
+</div>

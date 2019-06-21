@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+</head>
+<body ng-app="helloApp">
+    <!-- VIEW -->
+    <div ng-controller="helloController">
+        <h2>
+            {{greet.greeting}} {{ greet.name }}
+        </h2>
+    </div>
+    <script>
+        //controller
+        angular.module('helloApp', [])
+            .controller("helloController", $scope =>{
+                $scope.greet = {};
+                $scope.greet.name = "Bob";
+                $scope.greet.greeting = "Yo, What up"
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿@model SocialMediaSite.NewsFeed
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="banner">
+    <h1>Welcome to Inst Social</h1>
+</div>
+
+<div id="news">
+    <h2 id="newsHeader">
+        @Model.NewsHeader
+    </h2>
+    <hr />
+    <img id="newsImage" src="@Model.NewsImageUrl" />
+    <hr />
+    <h4>@Model.NewsBody</h4>
+</div>

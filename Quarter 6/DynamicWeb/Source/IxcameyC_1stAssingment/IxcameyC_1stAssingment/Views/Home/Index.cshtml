@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+</head>
+<body>
+    <header>
+
+        <div class="heading">
+            <h1>
+                Welcome To The Home Page!
+            </h1>
+            <ul>
+                <li>
+                    <a href="@Url.Action("Index", "Home")">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "AboutUs")">
+                        <span>About us</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div id="bodySpace">
+        <p>
+            Welcome to the DingoDellbio website! currently, there is not much on the site but tune in later for more!
+        </p>
+    </div>
+
+</body>
+
+</html>

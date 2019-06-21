@@ -1,0 +1,23 @@
+.Scrollable{
+    height: 400px;
+    overflow-y: auto;
+}
+
+.ScrollHeader{
+    background-color: $White-C;
+    color: $Black-C;
+    font-size: 40px;
+    padding: 8% 0%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    transition: 0.5s;
+}
+
+.ScrollBody{
+    padding: 15px 15px;
+    font-size: 30px;
+    color: $White-C;
+}

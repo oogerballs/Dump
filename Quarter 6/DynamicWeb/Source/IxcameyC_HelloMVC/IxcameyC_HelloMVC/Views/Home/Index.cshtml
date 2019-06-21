@@ -1,0 +1,56 @@
+﻿@model IxcameyC_HelloMVC.Models.FormModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/css/Style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div id="ContentBox">
+        <div id="Banner">
+            <h1>Welcome To Texacore</h1>
+            <h3>Please enter your Details below</h3>
+        </div>
+        @Html.ValidationSummary()
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+        {
+            @Html.TextBoxFor(f => f.FirstName, new { Type = "text", placeholder = "First Name" })
+            @Html.TextBoxFor(l => l.LastName, new { Type = "text", placeholder = "Last Name" })
+            <br />
+            <div class="ErrorMessages">
+
+                @Html.ValidationMessageFor(f => f.FirstName)
+                <br />
+                @Html.ValidationMessageFor(l => l.LastName)
+                <br />
+            </div>
+            <br />
+            @Html.TextBoxFor(e => e.Email, new { Type = "email", placeholder = "email" })
+            <br />
+            <div class="ErrorMessages">
+                @Html.ValidationMessageFor(m => m.Email)
+                <br />
+            </div>
+            <br />
+            @Html.TextBoxFor(p => p.PhoneNumber, new { Type = "text", placeholder = "Phone Number" })
+            @Html.TextBoxFor(e => e.Age, new { Type = "number", min = "5", max = "140", placeholder = "Age", id = "AgePan" })
+            <br />
+            <div class="ErrorMessages">
+                @Html.ValidationMessageFor(p => p.PhoneNumber)
+                <br />
+                @Html.ValidationMessageFor(e => e.Age)
+                <br />
+            </div>
+            <br />
+            <input type="submit" value="Submit" />
+        }
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/css/Style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <nav>
+        <a href="@Url.Action("Index", "Home")">Home</a>
+        <a href="@Url.Action("Plain", "Home")">Plain Text</a>
+        <a href="@Url.Action("Json", "Home")">Json</a>
+        <a href="@Url.Action("XML", "Home")">XML</a>
+        <a href="@Url.Action("Missing", "Home")">404 Missing</a>
+        <a href="/Home/Download">Download</a>
+    </nav>
+    
+    <table>
+        <tr>
+            <th colspan="2">Character Statistics</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Level</td>
+            <td>@Model.Level</td>
+        </tr>
+        <tr>
+            <td>Health Points</td>
+            <td>@Model.HealthPoints</td>
+        </tr>
+        <tr>
+            <td>Attributes</td>
+            <td>@Model.PrintDic()</td>
+        </tr>
+    </table>
+
+</body>
+</html>

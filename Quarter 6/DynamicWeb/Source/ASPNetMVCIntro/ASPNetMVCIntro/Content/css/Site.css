@@ -1,0 +1,27 @@
+﻿body {
+
+}
+
+h1{
+    color: green;
+}
+
+h2{
+    color: slategrey;
+    background-color: azure;
+
+}
+
+.aboutUsParagraphs{
+    font-size: 50px;
+}
+
+form label{
+    min-width: 65px;
+    display: inline-block;
+}
+
+.field-validation-error{
+    color: aqua;
+    width: 5%;
+}

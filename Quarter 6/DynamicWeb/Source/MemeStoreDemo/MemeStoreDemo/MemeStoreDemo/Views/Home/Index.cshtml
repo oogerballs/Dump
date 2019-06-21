@@ -1,0 +1,37 @@
+﻿@model MemeStoreService.Models.MemeModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Welcome to our Meme Store!</h1>
+
+<p>
+    TODO: Add paragrph about our meme store!
+</p>
+
+<div>
+    <h2>TODO: Add the Meme of the Day (aka Featured Meme!)</h2>
+</div>
+
+<h2>Featured Meme of the Day!</h2>
+
+@Html.Partial("_MemeBoxPartial", Model)
+
+@*Html.RenderPartial works wonkily*@
+@*@{ Html.RenderPartial("_MemeBoxPartial", Model); }*@
+
+@*<div class="memeBox">
+        <div class="memeHeader">
+            @Model.Name
+        </div>
+        <div class="memeBody">
+            <img src="@Model.ImageUrl" />
+        </div>
+        <div class="memeFooter">
+            @if (Model.IsDead)
+            {
+                <span>R.I.P!</span>
+            }
+        </div>
+    </div>*@

@@ -1,0 +1,7 @@
+C:\Users\Cristain\Desktop\Quarter 6\Codes and cyphers\projects\Bacon\Bacon\obj\Debug\Bacon.csprojAssemblyReference.cache
+C:\Users\Cristain\Desktop\Quarter 6\Codes and cyphers\projects\Bacon\Bacon\obj\Debug\Bacon.csproj.CoreCompileInputs.cache
+C:\Users\Cristain\Desktop\Quarter 6\Codes and cyphers\projects\Bacon\Bacon\bin\Debug\Bacon.exe.config
+C:\Users\Cristain\Desktop\Quarter 6\Codes and cyphers\projects\Bacon\Bacon\bin\Debug\Bacon.exe
+C:\Users\Cristain\Desktop\Quarter 6\Codes and cyphers\projects\Bacon\Bacon\bin\Debug\Bacon.pdb
+C:\Users\Cristain\Desktop\Quarter 6\Codes and cyphers\projects\Bacon\Bacon\obj\Debug\Bacon.exe
+C:\Users\Cristain\Desktop\Quarter 6\Codes and cyphers\projects\Bacon\Bacon\obj\Debug\Bacon.pdb

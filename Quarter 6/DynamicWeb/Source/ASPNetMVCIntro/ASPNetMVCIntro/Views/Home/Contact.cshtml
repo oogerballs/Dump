@@ -1,0 +1,42 @@
+﻿@model ASPNetMVCIntro.Models.ContactModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/css/Site.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <p>Give Us Your Details</p>
+    @Html.ValidationSummary()
+    @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+    {
+        <label>Email:</label>@Html.TextBoxFor(m => m.Email)
+        @Html.ValidationMessageFor(m => m.Email)
+        <br />
+        <br />
+        <label>Age:</label>@Html.TextBoxFor(c => c.Age, new { Type = "number", min = "5", max = "140"})
+        @Html.ValidationMessageFor(c => c.Age)
+        <br />
+        <br />
+        <input type="submit" value="GO" />
+    }
+
+    @*<form method="post" action="/Home/Contact">
+            <label>Email:</label><input name="Email" type="text" />
+            <br />
+            <br />
+            <label>Age:</label><input name="Age" type="number" min="5" max="120" />
+            <br />
+            <br />
+            <input type="submit" value="GO" />
+        </form>*@
+</body>
+</html>

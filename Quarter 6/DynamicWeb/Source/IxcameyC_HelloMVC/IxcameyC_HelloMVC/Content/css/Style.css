@@ -1,0 +1,81 @@
+﻿html {
+    background: radial-gradient(ellipse at center, #8abbd7 1%,#003b5e 75%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#WelcomeSection {
+    background-color: #FAFAFA;
+    padding: 5px;
+    margin: 150px;
+}
+
+#ContentBox {
+    background-color: #FAFAFA;
+    width: 40%;
+    height: 500px;
+    margin-left: 32%;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+
+#Banner {
+    border-radius: 10px 10px 0px 0px;
+    color: #FAFAFA;
+    background-color: #2CA1D4;
+}
+
+    #Banner h1 {
+        padding-top: 5px;
+        margin-left: 150px;
+    }
+
+    #Banner h3 {
+        padding-bottom: 5px;
+        margin-left: 180px;
+    }
+    
+    input{
+        font-size: 22px;
+    }
+
+    input[type=text]{
+        margin-left: 55px;
+        width: 200px;
+        height:25px;
+    }
+
+    input[type=email]{
+        margin-left: 55px;
+        width:458px;
+    }
+        input[type=number] {
+            margin-left: 55px;
+        }
+
+        input[type=submit] {
+            margin-left: 55px;
+        }
+
+    #AgePan{
+        width : 128px;
+    }
+
+.ErrorMessages {
+    font-size: 14px;
+    margin-left: 55px;
+    color: #592202;
+}
+
+.validation-summary-errors{
+    color: blueviolet;
+}
+
+    .validation-summary-errors li {
+        background: linear-gradient(to right,#fce4ed,#ffe8cc);
+        margin: 2px;
+    }
+

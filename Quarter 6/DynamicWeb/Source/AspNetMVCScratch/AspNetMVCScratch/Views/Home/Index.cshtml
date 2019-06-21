@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Model.Title</title>
+</head>
+<body>
+    <h1>@Model.Heading</h1>
+    <p>
+        @Model.WelcomeMessage
+    </p>
+    @if (Model.NumberOfTheDay != null && Model.NumberOfTheDay.Count > 0)
+    {
+
+    <h2>Numbers of the Day-</h2>
+    <ul>
+        @foreach (var num in Model.NumberOfTheDay)
+        {
+            <li>@num</li>
+        }
+        </ul>
+    }
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SocialMediaModelStoreContainer" CdmEntityContainer="SocialMediaEntities">
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="SocialMediaModel.Comment">
+        <MappingFragment StoreEntitySet="Comment">
+          <ScalarProperty Name="CommentId" ColumnName="CommentId" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Images">
+      <EntityTypeMapping TypeName="SocialMediaModel.Image">
+        <MappingFragment StoreEntitySet="Image">
+          <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+          <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+          <ScalarProperty Name="caption" ColumnName="caption" />
+          <ScalarProperty Name="publisher" ColumnName="publisher" />
+          <ScalarProperty Name="ImgSrc" ColumnName="ImgSrc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profiles">
+      <EntityTypeMapping TypeName="SocialMediaModel.Profile">
+        <MappingFragment StoreEntitySet="Profile">
+          <ScalarProperty Name="ProfileId" ColumnName="ProfileId" />
+          <ScalarProperty Name="ProfileName" ColumnName="ProfileName" />
+          <ScalarProperty Name="NickName" ColumnName="NickName" />
+          <ScalarProperty Name="ProfileImageUrl" ColumnName="ProfileImageUrl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ImageComment" TypeName="SocialMediaModel.ImageComment" StoreEntitySet="ImageComment">
+      <EndProperty Name="Comment">
+        <ScalarProperty Name="CommentId" ColumnName="CommentId" />
+      </EndProperty>
+      <EndProperty Name="Image">
+        <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="Favorites">
+      <EntityTypeMapping TypeName="SocialMediaModel.Favorite">
+        <MappingFragment StoreEntitySet="Favorites">
+          <ScalarProperty Name="FavValue" ColumnName="FavValue" />
+          <ScalarProperty Name="FavType" ColumnName="FavType" />
+          <ScalarProperty Name="ProfileId" ColumnName="ProfileId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NewsFeeds">
+      <EntityTypeMapping TypeName="SocialMediaModel.NewsFeed">
+        <MappingFragment StoreEntitySet="NewsFeed">
+          <ScalarProperty Name="NewsBody" ColumnName="NewsBody" />
+          <ScalarProperty Name="NewsImageUrl" ColumnName="NewsImageUrl" />
+          <ScalarProperty Name="NewsHeader" ColumnName="NewsHeader" />
+          <ScalarProperty Name="NewsId" ColumnName="NewsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

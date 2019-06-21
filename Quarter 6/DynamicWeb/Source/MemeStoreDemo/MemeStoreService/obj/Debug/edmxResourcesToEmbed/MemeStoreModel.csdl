@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MemeStoreModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="CommentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Memes" Relationship="Self.MemeComment" FromRole="Comment" ToRole="Meme" />
+  </EntityType>
+  <EntityType Name="Meme">
+    <Key>
+      <PropertyRef Name="MemeId" />
+    </Key>
+    <Property Name="MemeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IsDead" Type="Boolean" Nullable="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Comments" Relationship="Self.MemeComment" FromRole="Meme" ToRole="Comment" />
+  </EntityType>
+  <Association Name="MemeComment">
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <End Role="Meme" Type="Self.Meme" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="MemeStoreEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Comments" EntityType="Self.Comment" />
+    <EntitySet Name="Memes" EntityType="Self.Meme" />
+    <AssociationSet Name="MemeComment" Association="Self.MemeComment">
+      <End Role="Comment" EntitySet="Comments" />
+      <End Role="Meme" EntitySet="Memes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
